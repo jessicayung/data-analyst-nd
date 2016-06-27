@@ -22,7 +22,7 @@ def query_site(url, params, uid="", fmt="json"):
     # A json document should be returned by the query.
     params["fmt"] = fmt
     r = requests.get(url + uid, params=params)
-    print "requesting", r.url
+    print("requesting " + r.url)
 
     if r.status_code == requests.codes.ok:
         return r.json()
@@ -41,9 +41,9 @@ def pretty_print(data, indent=4):
     # After we get our output, we can format it to be more readable
     # by using this function.
     if type(data) == dict:
-        print json.dumps(data, indent=indent, sort_keys=True)
+        print(json.dumps(data, indent=indent, sort_keys=True))
     else:
-        print data
+        print(data)
 
 
 def main():
@@ -54,22 +54,22 @@ def main():
     the structure one level at a time or copy the output to a separate output
     file.
     '''
-    results = query_by_name(ARTIST_URL, query_type["simple"], "Nirvana")
+    results = query_by_name(ARTIST_URL, query_type["simple"], "Queen")
     pretty_print(results)
 
     artist_id = results["artists"][1]["id"]
-    print "\nARTIST:"
+    print("\nARTIST:")
     pretty_print(results["artists"][1])
 
     artist_data = query_site(ARTIST_URL, query_type["releases"], artist_id)
     releases = artist_data["releases"]
-    print "\nONE RELEASE:"
+    print("\nONE RELEASE:")
     pretty_print(releases[0], indent=2)
     release_titles = [r["title"] for r in releases]
 
-    print "\nALL TITLES:"
+    print("\nALL TITLES:")
     for t in release_titles:
-        print t
+        print(t)
 
 
 if __name__ == '__main__':

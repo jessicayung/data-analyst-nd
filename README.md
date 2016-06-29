@@ -18,3 +18,7 @@ Courses Yet to Include:
 - [Intro to Machine Learning: Pattern Recognition for Fun and Profit](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 - [Data Visualisation and D3.js: Communicating with Data](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 - [A/B Testing](https://www.udacity.com/course/ab-testing--ud257)
+
+__Note-taking__:
+
+I started taking notes while studying _2. Intro to Data Analysis_, where I took notes in the form of Anki flashcards. With _3. Intro to Data Wrangling with MongoDB_, I shifted to using iPython Notebooks (with the mind to add a layer of Anki flashcards on top later) so I could examine code and have a flow of the lesson I could revisit.

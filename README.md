@@ -21,4 +21,4 @@ Courses Yet to Include:
 
 __Note-taking__:
 
-I started taking notes while studying _2. Intro to Data Analysis_, where I took notes in the form of Anki flashcards. With _3. Intro to Data Wrangling with MongoDB_, I shifted to using iPython Notebooks (with the mind to add a layer of Anki flashcards on top later) so I could examine code and have a flow of the lesson I could revisit.
+I started taking notes while studying [2. Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170), where I took notes in the form of Anki flashcards. With [3. Intro to Data Wrangling with MongoDB](https://www.udacity.com/course/data-wrangling-with-mongodb--ud032), I shifted to using iPython Notebooks (with the mind to add a layer of Anki flashcards on top later) so I could examine code and have a flow of the lesson I could revisit.

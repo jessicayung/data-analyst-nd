@@ -19,6 +19,9 @@ Courses Yet to Include:
 - [Data Visualisation and D3.js: Communicating with Data](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 - [A/B Testing](https://www.udacity.com/course/ab-testing--ud257)
 
+Standalone Courses Included:
+- [Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
+
 __Note-taking__:
 
 I started taking notes while studying [2. Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170), where I took notes in the form of Anki flashcards. With [3. Intro to Data Wrangling with MongoDB](https://www.udacity.com/course/data-wrangling-with-mongodb--ud032), I shifted to using iPython Notebooks (with the mind to add a layer of Anki flashcards on top later) so I could examine code and have a flow of the lesson I could revisit.
